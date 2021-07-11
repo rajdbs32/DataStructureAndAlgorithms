@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class NestedIfElse {
 
 	public static void main(String[] args) {
+		//finding he greater number 
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
@@ -17,15 +18,14 @@ public class NestedIfElse {
 		} else {
 			if (b>c) {                      //here it is checking if b is the greater than c
 				result = b;
-			} else {                     //here it will check if c is greater than both of them 
+			} else {                     //here it will check if c is greater than both of them
 				result = c ;
 			}
-			
-				
-			} 
+
+
+			}
 		System.out.println("largest of the three numbers is " +result);
 		}
-		
-		
+
+
 	}
-	
