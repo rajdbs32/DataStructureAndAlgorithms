@@ -1,12 +1,12 @@
 package conditionalStatements;
 import java.util.Scanner;
-
+//ElseIfRange Function
 public class ElseIfRange {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
-		int number = sc.nextInt();		
+		int number = sc.nextInt();
 	 if (number <= 10 ) {
 		 System.out.println("the number lies between 0 - 10");
 	 }
@@ -18,5 +18,3 @@ public class ElseIfRange {
 	 }
 	}
 	}
-
-
