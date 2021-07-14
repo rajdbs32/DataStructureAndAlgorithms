@@ -8,11 +8,14 @@ public class NormalCalculator {
 		int CostPrice = sc.nextInt();
 		int SellingPrice = sc.nextInt();
 
-		float  Profit = SellingPrice - CostPrice;
-		float ProfitPercent = (((float)Profit/(float)CostPrice)*100);
+		float  Gain = SellingPrice - CostPrice;
+		float GainPercent = (((float)Gain/(float)CostPrice)*100);
+		
+		System.out.println("your gain is " + Gain);
+		System.out.println("your gain percent is " + GainPercent);
+		
 
-		System.out.println("your profit is " + Profit);
-		System.out.println("your profitPercent is " + ProfitPercent);
+		
 
 	}
 
