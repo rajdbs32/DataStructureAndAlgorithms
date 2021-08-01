@@ -21,11 +21,7 @@ public class NestedIfElse {
 			} else {                     //here it will check if c is greater than both of them
 				result = c ;
 			}
-
-
-			}
+		}
 		System.out.println("largest of the three numbers is " +result);
 		}
-
-
 	}
