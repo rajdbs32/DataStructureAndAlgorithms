@@ -14,10 +14,5 @@ public class FibonacchiSeries {
          a=b;
          b=c;
       }
-
-
-
-
-
-    }
+ }
 }
