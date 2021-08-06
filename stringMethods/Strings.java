@@ -8,5 +8,7 @@ public class Strings {
         System.out.println(name.toLowerCase());// converts name to lowercase.
         System.out.println(name + " from " + channel); //CONCATENATED
 
+        System.out.println(name.contains("Raj")); //checks if the item is present is variable.
+        System.out.println(name.charAt(2)); //tells the character at 2
     }
 }
