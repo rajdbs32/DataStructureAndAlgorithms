@@ -13,5 +13,7 @@ public class ArraysINJava {
             System.out.println(marks[i]); //prints all the values in the array marks
         }
 
+
+
     }
 }
