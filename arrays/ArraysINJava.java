@@ -15,5 +15,11 @@ public class ArraysINJava {
         //Multi-Dimensional arrays.
         int [][] matrix = {{1,2,3},{4,5,6}}; //2 directories
         System.out.println(matrix[1][2]);  //prints the 2nd value from 2nd directory.
+
+        // code to print all the values in an array.
+        String [] cars = {"Maruti Harry", "Maruti", "Suzuki", "Innova", "Ford Titanium"};
+        for(String value:cars){     //selects all the values in directory cars.
+           System.out.println(value);
     }
+ }
 }
