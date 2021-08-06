@@ -12,8 +12,8 @@ public class ArraysINJava {
         for(int i=0; i<marks.length; i++){
             System.out.println(marks[i]); //prints all the values in the array marks
         }
-
-
-
+        //Multi-Dimensional arrays.
+        int [][] matrix = {{1,2,3},{4,5,6}}; //2 directories
+        System.out.println(matrix[1][2]);  //prints the 2nd value from 2nd directory.
     }
 }
